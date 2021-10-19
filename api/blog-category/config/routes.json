@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/heroes",
-      "handler": "hero.find",
+      "path": "/blog-categories",
+      "handler": "blog-category.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/heroes/count",
-      "handler": "hero.count",
+      "path": "/blog-categories/count",
+      "handler": "blog-category.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/heroes/:id",
-      "handler": "hero.findOne",
+      "path": "/blog-categories/:id",
+      "handler": "blog-category.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/heroes",
-      "handler": "hero.create",
+      "path": "/blog-categories",
+      "handler": "blog-category.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/heroes/:id",
-      "handler": "hero.update",
+      "path": "/blog-categories/:id",
+      "handler": "blog-category.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/heroes/:id",
-      "handler": "hero.delete",
+      "path": "/blog-categories/:id",
+      "handler": "blog-category.delete",
       "config": {
         "policies": []
       }

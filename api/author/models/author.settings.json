@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "heroes",
+  "collectionName": "authors",
   "info": {
-    "name": "Hero",
-    "description": ""
+    "name": "Author"
   },
   "options": {
     "increments": true,
@@ -12,11 +11,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "subtitle": {
+    "name": {
       "type": "string"
     },
-    "title": {
-      "type": "string"
+    "email": {
+      "type": "email"
+    },
+    "blogs": {
+      "collection": "blog",
+      "via": "author"
     }
   }
 }

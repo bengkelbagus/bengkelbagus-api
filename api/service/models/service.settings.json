@@ -14,10 +14,6 @@
     "name": {
       "type": "string"
     },
-    "category": {
-      "via": "services",
-      "model": "category"
-    },
     "projects": {
       "via": "service",
       "collection": "project"
