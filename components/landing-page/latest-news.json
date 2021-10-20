@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_landing_page_latest_news",
+  "info": {
+    "name": "Latest News",
+    "icon": "edit"
+  },
+  "options": {},
+  "attributes": {
+    "blogs": {
+      "collection": "blog"
+    }
+  }
+}

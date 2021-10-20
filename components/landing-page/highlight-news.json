@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_landing_page_highlight_news",
+  "info": {
+    "name": "Highlight News",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "blog": {
+      "model": "blog"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_landing_page_abouts",
+  "info": {
+    "name": "about",
+    "icon": "cube"
+  },
+  "options": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "companyTagline": {
+      "type": "string"
+    },
+    "companyDescription": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_landing_page_testimonis",
+  "info": {
+    "name": "Testimoni",
+    "icon": "grin"
+  },
+  "options": {},
+  "attributes": {
+    "testimonials": {
+      "collection": "testimonial"
+    }
+  }
+}

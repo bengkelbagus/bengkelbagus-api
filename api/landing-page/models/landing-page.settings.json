@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.about"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.hero"
+    },
+    "productionStep": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.production-step"
+    },
+    "portofolio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.portofolio"
+    },
+    "highlightNews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing-page.highlight-news"
+    },
+    "testimonial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.testimoni"
+    },
+    "latestNews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.latest-news"
+    }
+  }
+}

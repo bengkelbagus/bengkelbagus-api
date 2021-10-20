@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_landing_page_portofolios",
+  "info": {
+    "name": "portofolio",
+    "icon": "cubes"
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "collection": "project"
+    }
+  }
+}
