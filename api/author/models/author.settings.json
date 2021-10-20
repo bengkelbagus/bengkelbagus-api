@@ -18,8 +18,8 @@
       "type": "email"
     },
     "blogs": {
-      "collection": "blog",
-      "via": "author"
+      "via": "author",
+      "collection": "blog"
     }
   }
 }

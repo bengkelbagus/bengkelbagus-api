@@ -15,8 +15,8 @@
       "type": "string"
     },
     "blogs": {
-      "collection": "blog",
-      "via": "blog_category"
+      "via": "blog_category",
+      "collection": "blog"
     }
   }
 }
