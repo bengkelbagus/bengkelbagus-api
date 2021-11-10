@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "services",
   "info": {
-    "name": "Service"
+    "name": "Service",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,6 +18,21 @@
     "projects": {
       "via": "service",
       "collection": "project"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "text"
     }
   }
 }

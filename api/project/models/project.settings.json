@@ -43,8 +43,8 @@
       "pluginOptions": {}
     },
     "service": {
-      "model": "service",
-      "via": "projects"
+      "via": "projects",
+      "model": "service"
     },
     "client": {
       "via": "projects",
