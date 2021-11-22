@@ -13,33 +13,21 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
-      "type": "richtext"
-    },
-    "images": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "type": "richtext",
+      "required": true
     },
     "cover": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
-        "files",
-        "videos"
+        "images"
       ],
       "plugin": "upload",
-      "required": false,
+      "required": true,
       "pluginOptions": {}
     },
     "service": {
@@ -53,14 +41,6 @@
     "testimonial": {
       "via": "project",
       "model": "testimonial"
-    },
-    "youtubeUrl": {
-      "type": "string"
-    },
-    "rating": {
-      "type": "integer",
-      "max": 5,
-      "min": 0
     }
   }
 }

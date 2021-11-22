@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "social_medias",
   "info": {
-    "name": "socialMedia"
+    "name": "socialMedia",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,10 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "url": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
